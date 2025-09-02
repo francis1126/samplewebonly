@@ -31,7 +31,7 @@ export function Header({ onNavigate }: HeaderProps) {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-primary">FTCC</h1>
-                <p className="text-xs text-muted-foreground -mt-1">Filipino Trusted Care Company</p>
+                <p className="text-xs text-muted-foreground -mt-1">Filipino</p>
               </div>
             </div>
           </div>
