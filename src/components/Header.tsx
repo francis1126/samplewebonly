@@ -26,9 +26,7 @@ export function Header({ onNavigate }: HeaderProps) {
           {/* Logo */}
           <div className="flex-shrink-0 cursor-pointer" onClick={() => handleNavigation("/")}>
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 via-red-500 to-yellow-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">FTCC</span>
-              </div>
+              <img src="/francis.jpg" alt="FTCC Logo" className="h-8 w-8 object-contain" /> 
               <div>
                 <h1 className="text-xl font-bold text-primary">FTCC</h1>
                 <p className="text-xs text-muted-foreground -mt-1">Filipino Trusted Care Company</p>
