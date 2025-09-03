@@ -4,7 +4,7 @@ import { ArrowRight, PlayCircle } from "lucide-react";
 
 export function Hero() {
   return (
-    <section id="home" className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-red-600 text-white overflow-hidden">
+    <section id="home" className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-white-600 text-white overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-grid-white/[0.02] bg-grid-pattern"></div>
       
