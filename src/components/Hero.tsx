@@ -83,10 +83,8 @@ export function Hero() {
               {/* Floating card */}
               <div className="absolute -bottom-6 left-6 bg-white rounded-xl shadow-xl p-4 backdrop-blur-sm">
                 <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                  <span className="text-sm font-medium text-gray-900">Serving Nationwide</span>
+                  <img src="/francis.jpg" alt="Customer Avatar" className="w-10 h-10 rounded-full object-cover border-2 border-blue-500" />
                 </div>
-                <div className="text-xs text-gray-600 mt-1">All Regions • All Communities</div>
               </div>
             </div>
           </div>
