@@ -80,11 +80,8 @@ export function Hero() {
                 />
               </div>
               
-              {/* Floating card */}
-              <div className="absolute -bottom-6 left-6 bg-white rounded-xl shadow-xl p-4 backdrop-blur-sm">
-                <div className="flex items-center space-x-3"> 
-                </div>
-              </div>
+             
+              
             </div>
           </div>
         </div>
