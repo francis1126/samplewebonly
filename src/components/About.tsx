@@ -61,9 +61,8 @@ export function About() {
                 <div className="space-y-4">
                   <h3 className="text-xl font-semibold text-blue-900">Our Mission</h3>
                   <p className="text-blue-700 leading-relaxed">
-                    To deliver exceptional business solutions and services that empower Filipino individuals, 
-                    families, and enterprises to achieve prosperity through innovative products, reliable 
-                    operations, and customer-centric approaches across all our business divisions.
+                    To bring compassionate, accessible, and comprehensive healthcare to every Filipino by providing free consultations, 
+                    medicines, diagnostics, and laboratory services—ensuring that no one is left behind in their journey to wellness.
                   </p>
                 </div>
               </CardContent>
@@ -74,9 +73,9 @@ export function About() {
                 <div className="space-y-4">
                   <h3 className="text-xl font-semibold text-red-900">Our Vision</h3>
                   <p className="text-red-700 leading-relaxed">
-                    To be the Philippines' most trusted and diversified business conglomerate, recognized 
-                    for excellence in customer service, innovation in business solutions, and our unwavering 
-                    commitment to Filipino economic development and community prosperity.
+                    A healthier Philippines where every community has access to preventive and primary care, 
+                    supported by innovative programs, making quality healthcare a right enjoyed by all, 
+                    and not a privilege for a few.
                   </p>
                 </div>
               </CardContent>
