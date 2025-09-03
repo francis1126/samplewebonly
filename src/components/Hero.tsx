@@ -39,7 +39,15 @@ export function Hero() {
                 Explore Our Services
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              
+              <Button 
+                size="lg" 
+                variant="secondary" 
+                className="bg-white text-blue-600 hover:bg-white/90 shadow-lg"
+                onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                <PlayCircle className="mr-2 h-4 w-4" />
+                Our Company Story
+              </Button>
             </div>
             
             <div className="flex items-center space-x-8 pt-4">
