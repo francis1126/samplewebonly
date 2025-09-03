@@ -33,14 +33,11 @@ export function Departments({ onNavigate }: DepartmentsProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {departments.map((dept, index) => {
             const IconComponent = dept.icon;
-            const isHighlighted = index === 0 || index === 1; // Highlight first two departments
+            
             
             return (
               <Card 
-                key={dept.id} 
-                className={`group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 ${
-                  isHighlighted ? 'ring-2 ring-blue-500/20 bg-gradient-to-br from-blue-50/50 to-red-50/30' : ''
-                }`}
+                
               >
                 <CardHeader className="space-y-4">
                   <div className={`w-14 h-14 rounded-xl ${dept.color} flex items-center justify-center mb-2 group-hover:scale-110 transition-transform duration-300`}>
@@ -69,8 +66,9 @@ export function Departments({ onNavigate }: DepartmentsProps) {
                   </div>
                   
                   <Button 
-                    variant="outline" 
-                    className="w-full group-hover:bg-gradient-to-r group-hover:from-blue-600 group-hover:to-blue-600 group-hover:text-white transition-all duration-300"
+                     
+                    size ="lg"
+                    className="bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-700 hover:to-blue-700"
                     onClick={() => handleDepartmentClick(dept.route)}
                   >
                     Learn More
@@ -83,7 +81,7 @@ export function Departments({ onNavigate }: DepartmentsProps) {
         </div>
         
         <div className="text-center mt-12">
-          <Card className="inline-block bg-gradient-to-r from-blue-50 to-red-50 border-blue-200">
+          <Card className="inline-block bg-gradient-to-r from-blue-50 to-blue-50 border-blue-200">
             <CardContent className="p-8">
               <h3 className="text-xl font-semibold mb-4">Need Multi-Department Solutions?</h3>
               <p className="text-muted-foreground mb-6 max-w-md">
