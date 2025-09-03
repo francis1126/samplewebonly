@@ -17,9 +17,9 @@ export function Hero() {
               </div>
               
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                Your Trusted Filipino 
+                Your Filipino's Trusted 
                 <span className="block text-transparent bg-gradient-to-r from-yellow-200 to-yellow-300 bg-clip-text">
-                  Business Partner
+                  Care Company
                 </span>
               </h1>
               
@@ -39,15 +39,7 @@ export function Hero() {
                 Explore Our Services
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="text-white border-white/30 hover:bg-white/10 backdrop-blur-sm"
-                onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
-              >
-                <PlayCircle className="mr-2 h-4 w-4" />
-                Our Company Story
-              </Button>
+              
             </div>
             
             <div className="flex items-center space-x-8 pt-4">
