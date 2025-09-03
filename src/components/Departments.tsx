@@ -51,9 +51,6 @@ export function Departments({ onNavigate }: DepartmentsProps) {
                       {dept.name}
                     </CardTitle>
                     <p className="text-sm font-medium text-muted-foreground">{dept.shortName}</p>
-                    {isHighlighted && (
-                      <Badge variant="default" className="text-xs bg-gradient-to-r from-blue-600 to-red-600">Featured</Badge>
-                    )}
                   </div>
                   <CardDescription className="text-sm leading-relaxed">
                     {dept.description}
@@ -73,7 +70,7 @@ export function Departments({ onNavigate }: DepartmentsProps) {
                   
                   <Button 
                     variant="outline" 
-                    className="w-full group-hover:bg-gradient-to-r group-hover:from-blue-600 group-hover:to-red-600 group-hover:text-white transition-all duration-300"
+                    className="w-full group-hover:bg-gradient-to-r group-hover:from-blue-600 group-hover:to-blue-600 group-hover:text-white transition-all duration-300"
                     onClick={() => handleDepartmentClick(dept.route)}
                   >
                     Learn More
@@ -95,7 +92,7 @@ export function Departments({ onNavigate }: DepartmentsProps) {
               </p>
               <Button 
                 size="lg" 
-                className="bg-gradient-to-r from-blue-600 to-red-600 hover:from-blue-700 hover:to-red-700"
+                className="bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-700 hover:to-blue-700"
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Contact FTCC
