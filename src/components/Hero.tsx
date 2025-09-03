@@ -74,7 +74,7 @@ export function Hero() {
               
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm border border-white/20">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80"
+                   src="/ftcc.png"
                   alt="Filipino business professionals and customers"
                   className="w-full h-full object-cover"
                 />
