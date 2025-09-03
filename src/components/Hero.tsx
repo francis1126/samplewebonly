@@ -16,7 +16,7 @@ export function Hero() {
                 <span className="text-sm text-white/90">🇵🇭 Trusted by 10M+ Filipino customers nationwide</span>
               </div>
               
-              <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+              <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
                 Your Filipino's Trusted 
                 <span className="block text-transparent bg-gradient-to-r from-yellow-200 to-yellow-300 bg-clip-text">
                   Care Company
