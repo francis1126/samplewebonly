@@ -36,12 +36,12 @@ export function Header({ onNavigate }: HeaderProps) {
           {/* Desktop Navigation */}
           <nav className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <button 
-                onClick={() => handleNavigation("/")}
-                className="text-foreground hover:text-primary transition-colors px-3 py-2 rounded-md"
-              >
-                Home
-              </button>
+             <button 
+              onClick={() => handleNavigation("/")}
+              className="text-foreground hover:text-primary transition-colors px-3 py-2 rounded-md font-normal"
+            >
+              Home
+            </button>
               <a href="#about" className="text-foreground hover:text-primary transition-colors px-3 py-2 rounded-md">
                 About
               </a>
