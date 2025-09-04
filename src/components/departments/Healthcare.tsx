@@ -15,7 +15,7 @@ export function Healthcare({ onBack }: HealthcareProps) {
   return (
     <DepartmentLayout
       department={department}
-      heroImage="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=80"
+      heroImage="/public/health.jpg"
       onBack={onBack}
     >
       <div className="space-y-16">

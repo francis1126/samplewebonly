@@ -29,7 +29,7 @@ export function FinTech({ onBack }: FinTechProps) {
   return (
     <DepartmentLayout
       department={department}
-      heroImage="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80"
+      heroImage="/public/zen.jpg"
       onBack={onBack}
     >
       <div className="space-y-16">

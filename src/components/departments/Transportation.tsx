@@ -15,7 +15,7 @@ export function Transportation({ onBack }: TransportationProps) {
   return (
     <DepartmentLayout
       department={department}
-      heroImage="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80"
+      heroImage="/public/trans.webp"
       onBack={onBack}
     >
       <div className="space-y-16">

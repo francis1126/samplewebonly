@@ -15,7 +15,7 @@ export function IT({ onBack }: ITProps) {
   return (
     <DepartmentLayout
       department={department}
-      heroImage="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?auto=format&fit=crop&w=800&q=80"
+      heroImage="/public/it.jpg"
       onBack={onBack}
     >
       <div className="space-y-16">
