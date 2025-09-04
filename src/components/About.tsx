@@ -68,11 +68,11 @@ export function About() {
               </CardContent>
             </Card>
             
-            <Card className="bg-gradient-to-br from-red-50 to-red-50/50 border-red-100">
+            <Card className="bg-gradient-to-br from-blue-50 to-blue-50/50 border-blue-100">
               <CardContent className="p-8">
                 <div className="space-y-4">
-                  <h3 className="text-xl font-semibold text-red-900">Our Vision</h3>
-                  <p className="text-red-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-blue-900">Our Vision</h3>
+                  <p className="text-blue-700 leading-relaxed">
                     A healthier Philippines where every community has access to preventive and primary care, 
                     supported by innovative programs, making quality healthcare a right enjoyed by all, 
                     and not a privilege for a few.
