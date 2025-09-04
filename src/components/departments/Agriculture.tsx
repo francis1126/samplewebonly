@@ -29,7 +29,7 @@ export function Agriculture({ onBack }: AgricultureProps) {
   return (
     <DepartmentLayout
       department={department}
-      heroImage="/public/agri.jpg"
+      heroImage="/agri.jpg"
       onBack={onBack}
     >
       <div className="space-y-16">

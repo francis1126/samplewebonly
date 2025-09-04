@@ -15,7 +15,7 @@ export function Marine({ onBack }: MarineProps) {
   return (
     <DepartmentLayout
       department={department}
-      heroImage="/public/maritime.jpg"
+      heroImage="/maritime.jpg"
       onBack={onBack}
     >
       <div className="space-y-16">

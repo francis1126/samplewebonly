@@ -15,7 +15,7 @@ export function Healthcare({ onBack }: HealthcareProps) {
   return (
     <DepartmentLayout
       department={department}
-      heroImage="/public/health.jpg"
+      heroImage="/health.jpg"
       onBack={onBack}
     >
       <div className="space-y-16">

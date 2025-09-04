@@ -29,7 +29,7 @@ export function Aviation({ onBack }: AviationProps) {
   return (
     <DepartmentLayout
       department={department}
-      heroImage="/public/aviation.jpg"
+      heroImage="/aviation.jpg"
       onBack={onBack}
     >
       <div className="space-y-16">
