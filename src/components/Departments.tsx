@@ -65,15 +65,15 @@ export function Departments({ onNavigate }: DepartmentsProps) {
                     </div>
                   </div>
                   
-                 <Button
+                <Button
   size="lg"
-  className="bg-white text-blue-600 border border-blue-600 
-             hover:bg-blue-600 hover:text-blue-600 hover:border-blue-600
+   className="bg-white text-blue-600 border !border-blue-600 
+             hover:!bg-blue-600 hover:text-white 
+             active:!bg-blue-700 active:!text-white
              transition-colors duration-300"
   onClick={() => handleDepartmentClick(dept.route)}
 >
   Learn More
-
 
                     <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Button>
@@ -93,7 +93,10 @@ export function Departments({ onNavigate }: DepartmentsProps) {
               </p>
               <Button 
                 size="lg" 
-                className="bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-700 hover:to-blue-700"
+             className="bg-white text-blue-600 border !border-blue-600 
+             hover:!bg-blue-600 hover:text-white 
+             active:!bg-blue-700 active:!text-white
+             transition-colors duration-300"
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 Contact FTCC
