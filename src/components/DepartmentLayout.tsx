@@ -30,28 +30,47 @@ export function DepartmentLayout({ department, heroImage, children, onBack }: De
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <div className="bg-white shadow-sm border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
-              <Button variant="ghost" onClick={onBack} className="hover:bg-muted">
-                <ArrowLeft className="h-4 w-4 mr-2" />
-                Back to Home
-              </Button>
-              <div className="h-6 w-px bg-border"></div>
-              <div className="flex items-center space-x-3">
-                <div className={`w-8 h-8 rounded-lg ${department.color} flex items-center justify-center`}>
-                  <IconComponent className="h-4 w-4" />
-                </div>
-                <div>
-                  <h1 className="text-lg font-semibold">{department.fullName}</h1>
-                </div>
-              </div>
-            </div>
-            <Button onClick={handleContactDepartment}>Contact Department</Button>
+<div className="bg-white shadow-sm border-b">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+    <div className="flex items-center justify-between">
+      
+      {/* Left side: Back + Department */}
+      <div className="flex items-center space-x-3">
+        {/* Back button */}
+        <Button 
+          variant="ghost" 
+          onClick={onBack} 
+          className="p-2 sm:px-3 sm:py-2 hover:bg-muted text-sm"
+        >
+          <ArrowLeft className="h-4 w-4 sm:mr-2" />
+          <span className="hidden sm:inline">Back to Home</span>
+        </Button>
+
+        <div className="hidden sm:block h-6 w-px bg-border"></div>
+
+        {/* Department icon + title */}
+        <div className="flex items-center space-x-2 sm:space-x-3">
+          <div className={`w-7 h-7 sm:w-8 sm:h-8 rounded-lg ${department.color} flex items-center justify-center`}>
+            <IconComponent className="h-4 w-4" />
           </div>
+          <h1 className="text-base sm:text-lg font-semibold truncate max-w-[150px] sm:max-w-none">
+            {department.fullName}
+          </h1>
         </div>
       </div>
+
+      {/* Contact button */}
+      <Button 
+        onClick={handleContactDepartment} 
+        size="sm" 
+        className="text-xs sm:text-sm md:text-base px-3 sm:px-4 py-1 sm:py-2"
+      >
+        Contact Department
+      </Button>
+    </div>
+  </div>
+</div>
+
 
       {/* Hero Section */}
       <div className="relative bg-gradient-to-br from-primary/10 via-primary/5 to-background">
